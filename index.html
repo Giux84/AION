@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AION</title>
+<meta name="description" content="AION, assistente personale: cos'è e come tratta i dati.">
+<style>
+  :root { --bg: #f7f7f5; --fg: #1d1d1f; --muted: #5f6368; --line: #e3e3e0; --accent: #0b6e8a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111417; --fg: #e8eaed; --muted: #9aa0a6; --line: #2a2f35; --accent: #5ec8e5; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 72px; }
+  h1 { font-size: 2.2rem; letter-spacing: .08em; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 8px; padding-top: 24px; border-top: 1px solid var(--line); }
+  p, li { margin: 0 0 12px; }
+  .lead { color: var(--muted); margin-bottom: 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>AION</h1>
+  <p class="lead">Assistente personale che funziona sul computer del suo proprietario ed è usato solo da lui.</p>
+
+  <h2>Cosa fa</h2>
+  <p>AION risponde a voce e per iscritto alle richieste del suo proprietario: promemoria, agenda, ricerche e documenti.
+     Con il suo consenso legge il suo calendario (Google Calendar e Outlook) per ricordargli gli appuntamenti e,
+     solo su sua richiesta confermata, ne crea, sposta o cancella.</p>
+
+  <h2 id="privacy">Norme sulla privacy</h2>
+  <ul>
+    <li><strong>Chi usa AION.</strong> Solo il proprietario del computer su cui gira. AION non è un servizio offerto ad altri.</li>
+    <li><strong>Quali dati.</strong> Con il consenso del proprietario, AION legge titolo e orari degli eventi del suo calendario.
+        Non legge descrizioni, luoghi o nomi degli invitati.</li>
+    <li><strong>Scritture.</strong> AION crea, sposta o cancella un evento solo dopo la conferma esplicita del proprietario.</li>
+    <li><strong>Dove restano.</strong> Gli eventi restano sul computer del proprietario; le chiavi di accesso sono salvate cifrate su quel computer.</li>
+    <li><strong>Servizi esterni.</strong> Per rispondere alle richieste, AION può inviare titoli e orari degli eventi al servizio
+        di intelligenza artificiale che usa (OpenAI). Nessun dato viene venduto o ceduto ad altri.</li>
+    <li><strong>Revoca.</strong> L'accesso si revoca in qualsiasi momento da
+        <a href="https://myaccount.google.com/connections">myaccount.google.com</a> (Sicurezza, «App e servizi di terze parti»)
+        e, per Outlook, da <a href="https://account.microsoft.com/privacy/app-access">account.microsoft.com</a>.</li>
+  </ul>
+
+  <footer>Ultimo aggiornamento: 12 novembre 2026.</footer>
+</main>
+</body>
+</html>
